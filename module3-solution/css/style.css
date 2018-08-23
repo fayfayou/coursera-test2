@@ -1,0 +1,55 @@
+body {
+
+	background-color: white;
+}
+#food {
+	background-color: grey;
+	border-radius: 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#food .navbar-brand{
+	margin-bottom: 10px;
+}
+
+#food .navbar-brand h1 {
+	color: red;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+#food .navbar-brand > a:hover {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list li {
+	color: orange;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+#main-content h2 {
+	margin-bottom: 30px;
+}
+
+#main-content .row div {
+	background-color: grey;
+	min-height: 1000px;
+}
+
+#main-content .row div #head {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
